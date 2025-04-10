@@ -1,6 +1,6 @@
-const btn = document.querySelector('#bite');
-const caca = document.querySelector('#caca');
+const headerBtn = document.getElementById("header-btn");
+const nav = document.querySelector("nav");
 
-btn.addEventListener("click", (e) => {
-	caca.textContent = "bite";
-})
+function toggleNav() {
+	nav.classList.toggle("hidden");
+}

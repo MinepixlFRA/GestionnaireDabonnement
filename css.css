@@ -32,3 +32,24 @@ header {
 	height: 30px;
 	width: 30px;
 }
+
+nav {
+	display: flex;
+	flex-direction: column;
+	position: fixed;
+	left: 0px;
+	top: 70px;
+	background-color: white;
+	box-shadow: 3px 3px 3px black;
+	height: 80vh;
+	width: 25rem;
+}
+
+nav > * {
+	text-align: center;
+	margin: 20px 0;
+}
+
+.hidden {
+	display: none;
+}
