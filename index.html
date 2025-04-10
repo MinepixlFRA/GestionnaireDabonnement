@@ -5,9 +5,31 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<title>TDB</title>
 		<link rel="stylesheet" href="css.css">
+		<style>
+			main {
+				position: static;
+				width: auto;
+				height: 10rem;
+			}
+
+			#main-title {
+				position: relative;
+				top: 5vh;
+				left: 5%;
+			}
+
+			#btn-start {
+				color: #000;
+				background-color: greenyellow;
+				border-color: green;
+				border-style: solid;
+				border-radius: 10px;
+				padding: 10px;
+				margin: 20px 15%;
+			}
+		</style>
 	</head>
 	<body>
-
 		<header>
 			<div id="header-left">
 				<button class="header-element" id="header-btn" onclick="toggleNav();">|||</button>
@@ -25,101 +47,19 @@
 			<a href="">Autre</a>
 			<a href="">Autre autre</a>
 		</nav>
-		<p>TESTES</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
-		<p>test</p>
+		<div id="close-nav" class="hidden" onclick="toggleNav();"></div>
+		<main>
+			<div id="main-title">
+				<h1>Gérer tous vos abonnements a un meme endroit.</h1>
+				<p>
+					Dans un monde ou il y a de plus en plus d'abonnements sur 
+					des platformes differentes, <br> les reunirs a un meme endroit semble etre une bonne idée.
+				</p>
+			</div>
+		</main>
+		<section>
+			<button id="btn-start">Commencer dés maintenant.</button>
+		</section>
 	</body>
 	<script src="js.js"></script>
 </html>
